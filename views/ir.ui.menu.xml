@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <menuitem id="parent_menu_lms" name="LMS" action="action_book" sequence="3000"/>
+        <menuitem id="parent_menu_book" name="Books" action="action_book" parent="parent_menu_lms" sequence="3001" />
+        <menuitem id="parent_menu_borrow" name="Borrows" action="action_borrow" parent="parent_menu_lms" sequence="3002" />
+        <menuitem id="parent_menu_category" name="Categories" action="action_category" parent="parent_menu_lms" sequence="3003" />
+        <menuitem id="parent_menu_student" name="Students" action="action_student" parent="parent_menu_lms" sequence="3004" />
+
+</odoo>
+
